@@ -123,7 +123,7 @@ z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50vh;
+    height: 100vh;
   }
   
   .left-side {
@@ -178,9 +178,6 @@ z-index: 1;
 }
 
   
-  .right-side {
-    width: 80%;
-  }
 
   
   
