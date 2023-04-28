@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Craigslist</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        Craigslist
+      </div>
+      <nav>
+        <div class="dropdown">
+          <button onclick="changeColorScheme()">Change Color Scheme</button>
+          <div id="colorOptions" class="dropdown-content">
+            <a href="#" onclick="setColor('light')">Light</a>
+            <a href="#" onclick="setColor('dark')">Dark</a>
+            <a href="#" onclick="setColor('blue')">Blue</a>
+            <a href="#" onclick="setColor('green')">Green</a>
+          </div>
+        </div>
+        <button type="button" class="filter-btn">Filter Results</button>
+
+        <form class="search-form">
+            <input type="text" placeholder="Search">
+            <button type="submit">Go</button>
+          </form>
+        <div class="dropdown dropdown-language">
+            <button class="dropbtn">Language: English</button>
+            <div class="dropdown-content">
+              <a href="#">English</a>
+              <a href="#">French</a>
+              <a href="#">German</a>
+            </div>
+          </div>
+          <div class="dropdown dropdown-location">
+            <button class="dropbtn">Location: New York</button>
+            <div class="dropdown-content">
+              <a href="#">New York</a>
+              <a href="#">Los Angeles</a>
+              <a href="#">Chicago</a>
+            </div>
+          </div>
+      </nav>
+    </header>
+    <div class="container">
+        <div class="left-side">
+            <h2>Events</h2>
+            <div id="calendar"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin molestie vitae massa eget sagittis. Nunc eu nibh id sapien ultricies feugiat vitae vel nisi. Nulla eu sem sapien.</p>
+          </div>
+          <div class="right-side">
+            <div class="sub-container">
+              <h2>Jobs</h2>
+              <!-- content for jobs section here -->
+              <ul>
+                <li><a href="#">Job 1</a></li>
+                <li><a href="#">Job 2</a></li>
+                <li><a href="#">Job 3</a></li>
+                <li><a href="#">Job 4</a></li>
+                <li><a href="#">Job 5</a></li>
+                <li><a href="#">Job 6</a></li>
+                <li><a href="#">Job 7</a></li>
+                <li><a href="#">Job 8</a></li>
+                <li><a href="#">Job 9</a></li>
+                <li><a href="#">Job 10</a></li>
+              </ul>
+            </div>
+            <div class="sub-container">
+              <h2>Market</h2>
+              <!-- content for market section here -->
+              <ul>
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+                <li><a href="#">Item 4</a></li>
+                <li><a href="#">Item 5</a></li>
+                <li><a href="#">Item 6</a></li>
+                <li><a href="#">Item 7</a></li>
+                <li><a href="#">Item 8</a></li>
+                <li><a href="#">Item 9</a></li>
+                <li><a href="#">Item 10</a></li>
+              </ul>
+            </div>
+            <div class="sub-container">
+              <h2>Discussions</h2>
+              <!-- content for discussions section here -->
+              <ul>
+                         <li><a href="#">Discussion1</a></li>
+                         
+                         <li><a href="#">Discussion 2</a></li>
+                        
+                         <li><a href="#">Discussion 3</a></li>
+                                <li><a href="#">Discussion 4</a></li>
+                                <li><a href="#">Discussion 5</a></li>
+                                <li><a href="#">Discussion 6</a></li>
+                                <li><a href="#">Discussion 7</a></li>
+                                <li><a href="#">Discussion 8</a></li>
+                                <li><a href="#">Discussion 9</a></li>
+                                <li><a href="#">Discussion 10</a></li>
+              </ul>
+            </div>
+          </div>
+         
+      </div>
+      <div class="container2">
+        <div class="left-side2">
+            <div class="top">     
+                <h1>Resumes</h1>
+               
+            </div>
+            <div class="bottom"><h1>Gigs</h1>
+             
+            </div>
+
+          </div>
+          <div class="right-side">
+            <div class="sub-container">
+              <h2>Services</h2>
+              <!-- content for jobs section here -->
+              <ul>
+                <li><a href="#">Service 1</a></li>
+                <li><a href="#">Service 2</a></li>
+                <li><a href="#">Service 3</a></li>
+                <li><a href="#">Service 4</a></li>
+                <li><a href="#">Service 5</a></li>
+                <li><a href="#">Service 6</a></li>
+                <li><a href="#">Service 7</a></li>
+                <li><a href="#">Service 8</a></li>
+                <li><a href="#">Service 9</a></li>
+                <li><a href="#">Service 10</a></li>
+              </ul>
+            </div>
+            <div class="sub-container">
+              <h2>houisng</h2>
+              <!-- content for market section here -->
+              <ul>
+                <li><a href="#">house 1</a></li>
+                <li><a href="#">house 2</a></li>
+                <li><a href="#">house 3</a></li>
+                <li><a href="#">house 4</a></li>
+                <li><a href="#">house 5</a></li>
+                <li><a href="#">house 6</a></li>
+                <li><a href="#">house 7</a></li>
+                <li><a href="#">house 8</a></li>
+                <li><a href="#">house 9</a></li>
+                <li><a href="#">house 10</a></li>
+              </ul>
+            </div>
+            <div class="sub-container">
+              <h2>Community</h2>
+              <!-- content for discussions section here -->
+              <ul>
+                         <li><a href="#">Activities</a></li>
+                         
+                         <li><a href="#">artists </a></li>
+                        
+                         <li><a href="#">classes </a></li>
+                                <li><a href="#">trade</a></li>
+                                <li><a href="#">household</a></li>
+                                <li><a href="#">creative</a></li>
+                                <li><a href="#">labor</a></li>
+                                <li><a href="#">Community</a></li>
+                                <li><a href="#">Community 92</a></li>
+                                <li><a href="#">Community 140</a></li>
+              </ul>
+            </div>
+          </div>
+         
+      </div>
+
+
+      <div id="calendar"></div>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css" />
+      
+      <script>
+      $(document).ready(function() {
+        $('#calendar').fullCalendar();
+      });
+      </script>
+    <script>
+      // Function to change the current location
+      function changeLocation(location) {
+        document.getElementById("location").innerHTML = location;
+      }
+    </script>
+  </body>
+</html>
